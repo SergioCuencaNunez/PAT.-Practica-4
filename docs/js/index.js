@@ -16,7 +16,7 @@ async function getAPI()
             dict2.push({x: new Date(resultado.data[i].date), y: Number(resultado.data[i].close)});
             dict3.push({x: new Date(resultado.data[i].date), y: Number(resultado.data[i].volume)});
         }
-        var acciones = new CanvasJS.StockChart("chartContainer",{
+        var grafico = new CanvasJS.StockChart("chartContainer",{
           theme: "light2",
           exportEnabled: true,
           charts: [{
@@ -67,7 +67,7 @@ async function getAPI()
             }
           }
         });
-        acciones.render();
+        grafico.render();
     }
 }
 

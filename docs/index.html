@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Meliá Hotels & Resorts</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="assets/img/navbar-logo.png" style="width:100px; height:58px" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./CheckInOnline.html">CHECK-IN ONLINE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./InicioSesion.html">INICIO DE SESIÓN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./Bolsa.html">ACCIONISTAS</a></li>
+                        <li class="nav-item"><a class="nav-link">91-276-4747</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div id="booking" class="section">
+                <div class="section-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="booking-form">
+                                <form>
+                                    <div class="row no-margin">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <span class="form-label">Destino</span>
+                                                <input class="form-control" type="text" placeholder="País, Ciudad, CP, ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row no-margin">
+                                                <div class="col-md-5">
+                                                    <div class="form-group">
+                                                        <span class="form-label">Fecha de entrada</span>
+                                                        <input class="form-control" type="date" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="form-group">
+                                                        <span class="form-label">Fecha de salida</span>
+                                                        <input class="form-control" type="date" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <span class="form-label">Personas</span>
+                                                        <select class="form-control">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-btn">
+                                                <button class="submit-btn">Buscar disponibilidad</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Rewards-->
+        <section class="page-section" id="rewards">
+            <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">PROGRAMA DE FIDELIZACIÓN</h2>
+                    </div>
+                    <div style="width: 100%">
+                        <a href="./MeliaRewards.html"><img src="assets/img/melia-rewards.png" class="center" style="object-fit:fill; width:1000px; height:160px"/></a><br>
+                        <div class="text-center">
+                            <a href="./MeliaRewards.html"><button class="btn btn-primary btn-xl text-uppercase">QUIERO SER MELIÁREWARDS</button></a>
+                            <a href="./InicioSesion.html"><button class="btn btn-primary btn-xl text-uppercase">INICIA SESIÓN</button></a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Destinos Grid-->
+        <section class="page-section bg-light" id="destinos">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">TOP DESTINOS</h2>
+                    <h3 class="section-subheading text-muted">Descubre los destinos más solicitados en nuestro país.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Destinos item 1-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal1">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Benidorm.png" />
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">No te pierdas el balcón del Mediterráneo</div>
+                                <div class="destinos-caption-subheading text-muted">Desde 30€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Destinos item 2-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal2">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Alicante.png"/>
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">¡Descubre sus impresionantes rutas!</div>
+                                <div class="destinos-caption-subheading text-muted">Desde 70€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Destinos item 3-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal3">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Madrid.png"/>
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">Disfruta paseando, ¡por la ciudad!</div>
+                                <div class="destinos-caption-subheading text-muted">Desde 47€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Destinos item 4-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal4">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Tenerife.png"/>
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">Descubre un lugar de otro planeta</div>
+                                <div class="destinos-caption-subheading text-muted">Desde 43€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Destinos item 5-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal5">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Mallorca.png"/>
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">Descubre sus paradisiacas calas</div>
+                                <div class="destinos-caption-subheading text-muted">Desde 38€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Destinos item 6-->
+                        <div class="destinos-item">
+                            <a class="destinos-link" data-bs-toggle="modal" href="#destinosModal6">
+                                <div class="destinos-hover">
+                                    <div class="destinos-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/destinos/Menorca.png"/>
+                            </a>
+                            <div class="destinos-caption">
+                                <div class="destinos-caption-heading">Disfruta de la naturaleza que atesora </div>
+                                <div class="destinos-caption-subheading text-muted">Desde 49€ Habitación/Noche</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map-->
+        <section class="page-section" id="map">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">MÁS DE 350 HOTELES EN 40 PAÍSES</h2><br>
+                </div>
+                <div style="width: 100%">
+                    <iframe width="1295" height="500" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12150.257712835712!2d-3.7097205381981304!3d40.41849911496838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMelia%20Hotels%20and%20Resorts!5e0!3m2!1ses!2ses!4v1643584084286!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opciones Grid-->
+        <section class="page-section bg-light" id="opciones">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">MÁS OPCIONES</h2><br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Opciones item 1-->
+                        <div class="opciones-item">
+                            <a href="https://www2.melia.com/meliapro/es/index.html">
+                                <img class="img-fluid" src="assets/img/opciones/MeliaPro.png"/>
+                            </a>
+                            <div class="opciones-caption">
+                                <div class="opciones-caption-subheading text-muted">El Portal exclusivo de Meliá para agentes de viajes y profesionales en el que podrás conseguir las comisiones más competitivas y los descuentos más especiales en todas nuestras tarifas.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Opciones item 2-->
+                        <div class="opciones-item">
+                            <a href="https://www.americanexpress.com/es-es/tarjetas/tarjetas-de-cargo/tarjeta-mas-gold/">
+                                <img class="img-fluid" src="assets/img/opciones/MeliaAmerican.png"/>
+                            </a>
+                            <div class="opciones-caption">
+                                <div class="opciones-caption-subheading text-muted">35,000 PUNTOS MELIÁREWARDS DE BIENVENIDA. Solicita la Tarjeta American Express MeliáRewards y convierte tus compras en noches de hotel. 1€ de gasto = 3 puntos MeliáRewards.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Opciones item 3-->
+                        <div class="opciones-item">
+                            <a href="https://landings.melia.com/es/descarga-app.html?utm_medium=meliacom&utm_source=modulodescarga">
+                                <img class="img-fluid" src="assets/img/opciones/MeliaApp.png"/>
+                            </a>
+                            <div class="opciones-caption">
+                                <div class="opciones-caption-subheading text-muted">Reserva estancias en nuestros hoteles, haz el check in online, entra en tu habitación con la llave digital, realiza peticiones y reservas, comunícate con el hotel a través de nuestro chat y mucho más.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Promo -->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">NO TE PIERDAS NUESTRAS PROMOCIONES</h2>
+                    <h3 class="section-subheading text-muted">Suscríbete a nuestro boletín y recibe nuestras mejores ofertas y descuentos.</h3>
+                </div>
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Correo electrónico*" data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-black mb-3">
+                            <div class="fw-bolder">Gracias por tu suscripción al boletín de noticias</div>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error en la suscripción al boletín de noticias</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Suscríbete</button></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Brands -->
+        <section class="page-section2 bg-light" id="brands">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase"><a href="./MeliaBrands.html">DESCUBRE NUESTRAS MARCAS</a></h2>
+                </div>
+                <div>
+                    <table align="center" id="brands-table">
+                        <tr>
+                            <td scope="col"><a href="https://www.granmelia.com/es/"><img src="assets/img/logos/gran-melia.svg" width="250px" height="200px"/></a></td>
+                            <td scope="col"><a href="https://www.mebymelia.com"><img src="assets/img/logos/me.svg" width="70px" height="150px"/></a></td>
+                            <td scope="col"><a href="https://landings.melia.com/es/paradisus/index.html"><img src="assets/img/logos/paradisus.svg" width="150px" height="85px"/></a></td>
+                            <td scope="col"><a href="https://landings.melia.com/es/melia/soulmatters/index.html"><img src="assets/img/logos/melia.svg" width="150px" height="120px"/></a></td>
+                            <td scope="col"><a href="https://www.innsidebymelia.com/es/"><img src="assets/img/logos/innside.svg" width="150px" height="135px"/></a></td>
+                            <td scope="col"><a href="https://landings.melia.com/es/tryp/lovers/index.html"><img src="assets/img/logos/tryp.svg" width="115px" height="215px"/></a></td>
+                            <td scope="col"><a href="https://www.sol-hotels.com/es"><img src="assets/img/logos/sol.png" width="65px" height="42px"/></a></td>
+                            <td scope="col"><a href="https://circle.melia.com/es/experiencia"><img src="assets/img/logos/circle.svg" width="215px" height="160px"/></a></td>
+                            <td scope="col"><a href="./MeliaRewardsAdvantages.html"><img src="assets/img/logos/melia-rewards.svg" width="150px" height="150px"/></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Meliá Hotels & Resorts&copy; 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-light btn-social mx-3" href="https://twitter.com/MeliaHtlResorts"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-social mx-3" href="https://www.facebook.com/Melia.Hotels?fref=ts"><i class="fab fa-facebook"></i></a>
+                        <a class="btn btn-light btn-social mx-3" href="https://instagram.com/meliahtlresorts/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-light btn-social mx-3" href="https://www.youtube.com/channel/UCIslJhf4yPT7UMMPrHIa94w"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Política de Privacidad</a>
+                        <a class="link-dark text-decoration-none" href="#!">Términos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Destinos Modals-->
+        <!-- Destinos item 1 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Benidorm</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Benidorm2.png"/>
+                                    <p>Si quieres irte de vacaciones y todavía no has decidido tu destino, Benidorm es una opción que no puedes pasar por alto. Éstas ante uno de los enclaves más sorprendentes de todo el Mediterráneo. En esta ciudad española de la provincia de Alicante, podrás compaginar hermosas playas -en la que podrás practicar todo tipo de actividades y deportes acuáticos- con una amplia oferta de ocio y entretenimiento y una interesante ambiente diurno y nocturno. Tanto si estás pensando viajar sólo, en pareja o en familia, Benidorm es una apuesta segura. ¿Te animas a conocerlo?
+                                        Meliá cuenta con cinco hoteles en Benidorm: Meliá Benidorm, Sol Costa Blanca, Sol Pelícanos Ocas, Meliá Villaitana y The Level at Meliá Villaitana.
+                                        <ul>
+                                            <li>Meliá Benidorm se encuentra situado en el Rincón de Loix, en el centro de la ciudad, y a pocos minutos de la Playa de Levante. Diseñado para clientes de ocio y clientes de negocio, este hotel en Benidorm ofrece elegantes habitaciones, una piscina lago, una piscina climatizada cubierta, magníficas zonas ajardinadas, zona infantil, amplias áreas gastronómicas, parking de uso exclusivo para nuestros clientes y un completo gimnasio.</li>
+                                            <li>Sol Costa Blanca cuenta con una ubicación privilegiada en primera línea de la magnífica playa de Levante y situado en pleno centro comercial y de ocio de Benidorm. Diseñado exclusivamente solo para adultos, este hotel en Benidorm ofrece habitaciones con espectaculares vistas al mar, una piscina exterior frente a la magnífica playa de Levante, conexión a Internet (WIFI) de alta velocidad, una terraza donde podrás disfrutar de un combinado o de un zumo natural y deliciosos snacks frente al mar o en la piscina del Hotel.</li>
+                                            <li>El complejo Sol Pelícanos Ocas se encuentra situado en el Rincón de Loix, y a tan solo 300 m de la magnífica Playa de Levante. Formado por los edificios “Pelícanos” y “Ocas”, este espectacular hotel en Benidorm es ideal para disfrutar de unas vacaciones en familia durante todo el año. Además, entre sus servicios e instalaciones, este hotel en Benidorm ofrece confortables y luminosas habitaciones, amplias áreas gastronómicas, una espectacular piscina lago de 1.430 m2, 2 piscinas infantiles y 2 piscinas exteriores.</li>
+                                            <li>Meliá Villaitana se encuentra ubicado a 20 minutos de Alicante. Diseñado para clientes de ocio y clientes de negocio, este hotel en Benidorm está concebido como un pueblo mediterráneo situado entre 2 campos de golf Nicklaus Design y con magníficas vistas hacia la Gran Bahía de la Costa Blanca. Entre sus servicios e instalaciones, este hotel en Benidorm ofrece elegantes habitaciones y suites, 2 campos de golf de 18 hoyos, 5.000 m2 de espacio acuático, amplias áreas gastronómicas, 2 pistas de tenis y 6 de pádel, parque infantil, club infantil, playa artificial, YHI SPA con completo gimnasio y un espectacular centro de convenciones. </li>
+                                            <li>The Level at Meliá Villaitana, que se encuentra a 20 minutos de Alicante, es un exclusivo Hotel dentro del gran complejo Meliá Villaitana. Diseñado solo para adultos, este lujoso hotel en Benidorm ofrece 99 habitaciones dotadas de todas las comodidades y con una amplia gama de servicios de lujo, el exclusivo servicio The Level con confort superior y acogedora privacidad, piscinas y jardines, un completo YHI SPA, una selecta oferta de alta gastronomía, dos campo de golf de 18 hoyos y diseñados por Nicklaus Design, 6 pistas de pádel y 2 de tenis y un magnífico Centro de Convenciones.</li>
+                                        </ul>
+                                    Reserva ya tu hotel en Benidorm y descubre uno de los destinos turísticos más importantes de España gracias a su privilegiado clima, sus playas y su vida nocturna.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destinos item 2 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Alicante</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Alicante2.png"/>
+                                    <p>Enclavada en plena Costa Blanca, la ciudad portuaria de Alicante se ha convertido en uno de los destinos turísticos más importantes del Levante español. Situada a los pies del Castillo de Santa Bárbara, ofrece hermosas playas, mil planes de ocio y entretenimiento, una amplia oferta de campos de golf, tiendas para todos los gustos, una animada vida nocturna y una exquisita gastronomía local. Su casco histórico, situado a los pies de esta fortaleza, esconde un interesante legado arquitectónico civil y religioso, sin olvidar la emblemática Explanada de España, tradicional lugar de esparcimiento de sus habitantes. Alicante es también tierra de hondas tradiciones populares, como la fiesta de Moros y Cristianos y la Noche de San Juan.</p>
+                                    <p> Meliá cuenta con 7 hoteles en Alicante: Meliá Alicante, The Level at Meliá Alicante, Meliá Villaitana, The Level at Meliá Villaitana, Hotel Alicante Gran Sol Affiliated by Meliá, Hotel Spa Porta Maris by Meliá y Hotel Suites Del Mar by Meliá.</p>
+                                    <p> Estos hoteles en Alicante se encuentran en el centro de la ciudad o a pocos metros del puerto. Sean cuales sean los motivos de tu viaje a esta encantadora ciudad mefiterránea, en estos hoteles en Alicante encontrarás todos servicios e instalaciones que necesitas para que su estancia sea inolvidable.</p>
+                                    <p>Reserva ya tu hotel en Alicante con Meliá y encuentra el mejor precio garantizado en nuestra página web.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destinos item 3 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Madrid</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Madrid2.png"/>
+                                    <p>Son muchos los motivos que tendrás para visitar Madrid. Su inmenso patrimonio cultural y artístico, sus increíbles propuestas de ocio y entretenimiento a la altura de las grandes urbes europeas, sus museos de referencia internacional, sus exclusivos bares, tiendas y restaurantes, todo un paraíso para las compras y la diversión. Abierta y dinámica, la capital de España cuenta con innumerables lugares para visitar y rincones para perderse.</p>
+                                    <p>La Puerta del Sol, la plaza Mayor, la Gran Vía, el Retiro y la Puerta de Alcalá son algunos de los puntos más recomendados. Otros lugares que no puedes perderte son la plaza de Cibeles; el Palacio Real, la residencia oficial de la familia real española; la plaza de España, uno de los principales núcleos de Madrid para residentes y turistas; el Museo del Prado, una de las más significativas pinacotecas del mundo; la Catedral de la Almudena, el edificio religioso más representativo de la ciudad; Templo de Debod, un templo egipcio en el corazón de la capital; Cuatro Torres, el rascacielos más alto de España, y el Rastro, un mercado al aire libre con más de 400 años de historia. Escápate a Madrid y descubre uno de los mejores destinos del mundo.</p>
+                                    <p>Meliá cuenta con 19 hoteles en Madrid. Ubicados en el centro de la ciudad, junto a las principales zonas turísticas y de negocios, podrás elegir entre hoteles de lujo, hoteles de diseño, hoteles románticos, hoteles solo para adultos, hoteles para familias, hoteles para deportista u hoteles de negocios para tus próximas escapadas de placer o estancia por motivos de trabajo. Estos hoteles en Madrid te ofrecen todos los servicios e instalaciones que necesitas para que tu estancia en la capital española sea perfecta.</p>
+                                    <p>Reserva ya tu hotel en Madrid con Meliá y descubre un destino que colmará todas tus expectativas.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destinos item 4 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Tenerife</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Tenerife2.png"/>
+                                    <p>Conocida como la Isla de la eterna primavera por su clima templado los doce meses del año, la hermosa isla canaria de Tenerife es uno de los destinos europeos más buscados por viajeros de todo el mundo que buscan disfrutar de unos días de descanso en sus cálidas playas, disfrutar de su maravilloso entorno natural protegido y de unas costumbres, fiestas y propuestas gastronómicas únicas. En Tenerife la diversión está garantizada. Destino ideal para viajar en pareja, con amigos o en familia, Tenerife ofrece planes de ocio y diversión para todas las edades los siete días de la semana. Viaja a este paraíso de contrastes y vive experiencias únicas. Sube en teleférico hasta el imponente Teide, el tercer volcán más grande del planeta; bucea por espectaculares fondos marinos; báñate en hermosas piscinas naturales y disfruta de hermosas puestas de sol; practica tu deporte acuático preferido y juega al golf en el mejor de los ambientes.</p>
+                                    <p>Meliá cuenta con nueve hoteles en Tenerife. Viaja a Tenerife y disfruta de unas vacaciones únicas en pareja, familia o amigos. Estos hoteles en Tenerife se encuentran situados, la mayoría, en primera línea de las playas y calas más hermosas de la isla. Además, estos hoteles en Tenerife ofrecen magníficas habitaciones con fabulosas vistas al mar, amplia variedad de restaurantes, numerosas actividades diurnas y nocturnas, espectaculares piscinas frente al mar, instalaciones deportivas y todos los servicios e instalaciones que necesitas para que tu estancia en Tenerife sea perfecta.</p>
+                                    <p>Reserva ya tu hotel en Tenerife y empieza a disfrutar de unas vacaciones únicas en este paraíso del atlántico.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destinos item 5 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Mallorca</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Mallorca2.png"/>
+                                    <p>La isla de la Calma emerge en el mar Mediterráneo como un lugar singular y único, consolidado desde hace décadas como uno de los mejores destinos turísticos de sol y playa. Pero Mallorca es mucho más que eso. El mar y la naturaleza han moldeado la isla más extensa y poblada del archipiélago balear, atrayendo a visitantes de todo el mundo y ofreciendo una variada oferta cultural y de ocio que harán de tu estancia una experiencia inolvidable.</p>
+                                    <p>Descubre su hermosa capital, Palma de Mallorca, y respira el ambiente cosmopolita de la ciudad; conoce sus principales monumentos, como la Catedral, el Palacio de la Almudaina, la Lonja o el Castillo de Bellver, y pasea por sus principales áreas comerciales. Desde este centro neurálgico puedes partir hacia las numerosas y pintorescas poblaciones que se extienden a lo largo y ancho de la isla. Pequeños pueblos pesqueros con hermosos puertos, como el de Andratx, Sant Elm o Sóller, donde el llaúd, la tradicional embarcación que se usaba para la pesca, aun extiende su vela levantina. Localidades que se erigen sobre atalayas naturales con fortificaciones o vestigios de épocas pasadas, como el castillo de Alaró y el de Capdepera. Pueblos que se mimetizan con el entorno, camuflándose entre acantilados y vegetación, como la bella Deiá, y pueblos de montaña de especial encanto y calles empedradas como Valldemosa. Si te gusta descubrir las tradiciones y el patrimonio histórico de los pueblos a poca distancia de tu hotel Mallorca es tu destino.</p>
+                                    <p>La isla de Mallorca reúne una inmensa variedad de paisajes que son testigos de la rica y espectacular diversidad natural que atesora. Acantilados, llanuras, montañas, valles, islotes y cabos, como el espectacular cabo de Formentor. La Sierra de Tramontana corona esta orografía ofreciendo rutas de senderismo entre los valles y montañas que la conforman: desde su cumbre más alta, el Puig Major, a más de 1400 metros de altitud, hasta los cañones y torrentes que la atraviesan, como el Torrent de Pareis. Mallorca cuenta además con numerosos espacios naturales protegidos como la isla de la Dragonera, donde las lagartijas corren a sus anchas, el archipiélago de Cabrera, bastión de la conservación de los ecosistemas insulares del Mediterráneo, y la Albufera de Mallorca, un extenso humedal que puedes rodear en bicicleta mientras contemplas el reposo de las aves migratorias. Pero no todo el espectáculo está sobre la superficie, su subsuelo oculta un laberinto de gran valor geológico a base de estalactitas y estalagmitas de antojadizas y sorprendentes formas que han moldeado el interior de cuevas como las de Artá o las famosas Cuevas de Drac, en Porto Cristo. Mallorca es el escenario idóneo para la práctica del turismo activo, ya que el mar y la montaña constituyen el mejor entorno para practicar deportes náuticos, de aventura o disfrutar del aire libre practicando tu swing en un campo de golf.</p>
+                                    <p>Si quieres darte un baño en la playa a unos pasos del hotel Mallorca es el lugar perfecto. Su temperatura cálida durante gran parte del año, invita a darte un chapuzón en cualquier punto de los cerca de 550 kilómetros de su litoral. Hermosas playas de arena blanca de gran extensión o pequeñas calas con fondo de guijarros rodados, y rincones paradisiacos de aguas cristalinas y turquesas te esperan en la isla. Si lo que buscas es un ambiente animado, así como eventos culturales cerca del hotel Mallorca reúne una amplia oferta de propuestas. Desde el ambiente jovial de la costa de Calviá o El Arenal, con alegres fiestas y animado ocio nocturno, hasta los distinguidos beach clubs donde tomar un cóctel relajadamente al caer el sol. La isla también reúne una intensa agenda cultural con exposiciones, galerías de arte y museos, como la Fundación Pilar y Joan Miró en Palma, además de espectáculos teatrales y conciertos. Descubre la tradición artesana de Mallorca visitando los talleres y museos donde podrás ver cómo se trabaja la piel, la fabricación de zapatos, la joyería, las perlas o el cristal soplado. Saborea su rica gastronomía, todo un deleite para el paladar, influenciada por una honda tradición de la cocina mediterránea, a la vez que abierta al mestizaje y técnicas culinarias de la cocina internacional. La sobrasada, ingrediente típico de la isla, está presente en una gran variedad de platos, aunque es la famosa ensaimada la propuesta gastronómica más conocida. Una rica variedad que podrás disfrutar tanto en los restaurantes, como en los establecimientos emblemáticos y tiendas delicatesen de la isla.</p>
+                                    <p>Meliá cuenta con 25 hoteles en Mallorca. Estos hoteles en Mallorca se encuentran situados en diferentes localizaciones: en la ciudad de Palma, en primera línea de las playas y calas más paradisiacas de la isla o en las principales zonas de moda del archipiélago. Además, podrás elegir entre hoteles de lujo, hoteles para familias, hoteles solo para adultos, hoteles para deportistas, hoteles de diseño, hoteles románticos, hoteles de negocios y hoteles con estilo de vida y hoteles en Mallorca Todo Incluido. Todos estos hoteles en Mallorca te ofrecen todos servicios e instalaciones que necesitas para que tu estancia en la Isla de la Calma sea perfecta.</p>
+                                    <p>Reserva ya tu hotel en Mallorca con Meliá y disfruta de tus vacaciones en una de las islas más hermosas del Mediterráneo.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destinos item 6 modal popup-->
+        <div class="destinos-modal modal fade" id="destinosModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase" style="text-align:center;">Menorca</h2>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/destinos/Menorca2.png"/>
+                                    <p>Menorca hay que degustarla sin prisas, a sorbos, como su característica ginebra. Tranquila, discreta y llena de espacios naturales intactos y playas vírgenes a la altura de las grandes costas mundiales, la isla balear es un auténtico regalo para los sentidos. Declarada Reserva de la Biosfera por la Unesco, esta bella isla abierta al mar ofrece al viajero más de 1.500 sitios arqueológicos, interesantes museos, auténticos pueblos de pescadores como Binibeca y Fornells, cerca de setenta playas y calas como Cala Turqueta, Cala Macarella, Cala Galdana, Cala Pregonda y Cala Mitjana para satisfacer todos los gustos, hermosas ciudades como la histórica Ciutadella o la hermosa capital de Mahón. Menorca es un lugar para descubrirla de día y de noche. Ya sea surcando sus aguas turquesa en velero, practicando algún deporte náutico, disfrutando del  buceo, o descubriendo su tierra privilegiada a pie, a caballo, en bicicleta o en coche. Menorca es siempre una auténtica delicia. Te recomendamos recorrer su famoso Cami de Cavalls, un recorrido para vivir experiencias únicas.
+                                    <p>Meliá cuenta con cuatro hoteles en Menorca: Sol Falcó All Inclusive, Sol Milanos Pingüinos, Sol Beach House Menorca y Meliá Cala Galdana.</p>
+                                    <ul>
+                                        <li>Sol Falcó All Inclusive se encuentra a tan sólo 250 metros de la magnífica playa de Son Xoriguer. Diseñado especialmente para familias, este hotel Todo Incluido en Menorca ofrece habitaciones familiares, magníficos bufets internacionales y temáticos, siete piscinas para adultos y una infantil, un gimnasio completamente equipado y amplios jardines y terrazas.</li>
+                                        <li>Sol Milanos Pingüinos se encuentra situado en primera línea de la playa de Son Bou, conocida como la más extensa de Menorca y reconocida como un Área de Natural de Especial Interés (ANEI) por su riqueza en flora y fauna. Especialmente orientado a familias, este hotel Todo Incluido en Menorca cuenta con habitaciones con magníficas vistas a la playa de Son Bou, magníficos bufets internacionales y temáticos, dos piscinas (una estilo lago y otra deportiva), una pista multideportiva, un mini club, un parque infantil, parque de aventura tematizado con Los Picapiedra y un mini golf.</li>
+                                        <li>Sol Beach House Menorca se encuentra frente a la paradisíaca playa menorquina de Santo Tomás y junto a la playa de San Adeodato y la playa de Binigau. Diseñado sólo para adultos, este hotel en Menorca dispone de elegantes habitaciones con vistas al mar, exquisita gastronomía, una magnífica piscina exterior rodeada de zonas ajardinadas, un moderno Pool Bar y Lounge Bar con vistas a la playa.</li>
+                                        <li>Meliá Cala Galdana se encuentra localizado al sur de Menorca, concretamente en el municipio de Ferreries, y estratégicamente situado en primera línea de la playa de Cala Galdana. Este hotel en Menorca ofrece modernas y elegantes habitaciones con vistas a la maravillosa Cala de Santa Galdana, exquisita gastronomía, exclusivo servicio The Level con privacidad, confort superior y completas instalaciones. Es perfecto para disfrutar en familia, parejas y amigos.
+                                        </li>
+                                    </ul>
+                                    <p>Encuentra el hotel en Menorca que buscas y te garantizamos una experiencia inolvidable.</p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Cerrar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!--<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>-->
+    </body>
+</html>

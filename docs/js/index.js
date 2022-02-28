@@ -2,7 +2,7 @@ let API_KEY = "dc786d31ccfa2a8201a39dc39eac1523";
 let symbol = "MEL.BMEX";
 async function getAPI()
 {
-    //let url = "http://api.marketstack.com/v1/eod?access_key="+API_KEY+"&symbols="+symbol
+    let url = "http://api.marketstack.com/v1/eod?access_key="+API_KEY+"&symbols="+symbol
     let respuesta = await fetch(url)
     let currentDate = new Date();
     let day = currentDate.getDate();

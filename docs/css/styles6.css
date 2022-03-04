@@ -11506,7 +11506,7 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+#masthead {
   max-width:1730px;
   max-height:850px;
   width: auto;

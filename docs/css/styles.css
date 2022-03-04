@@ -11422,7 +11422,8 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+
+#masthead {
   max-width:1730px;
   max-height:850px;
   width: auto;
@@ -11441,7 +11442,7 @@ header.masthead {
 
 .section .section-center {
 	position: absolute;
-	top: 35%;
+	top: 58%;
 	left: 0;
 	right: 0;
 	-webkit-transform: translateY(-50%);
